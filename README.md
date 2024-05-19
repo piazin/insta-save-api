@@ -30,7 +30,7 @@ A Insta-Save API é uma API simples para salvar reels do Instagram.
 ```json
 {
   "reels": {
-    "reelsUrl": "https://www.instagram.com/p/XXXXXXXXXXX/download",
+    "downloadLink": "https://www.instagram.com/p/XXXXXXXXXXX/download",
     "thumbnailLink": "https://www.instagram.com/p/XXXXXXXXXXX/download"
   }
 }

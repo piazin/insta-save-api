@@ -10,7 +10,7 @@ export class ReelsService {
   async getReelsDownloadLink(url: string) {
     const reelsDownloadLink = await this.reelsGateway.download(url);
 
-    if (!reelsDownloadLink.reelsUrl)
+    if (!reelsDownloadLink.downloadLink)
       throw new NotFoundException('Não foi posssivel encontrar este reels');
 
     return reelsDownloadLink;

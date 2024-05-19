@@ -1,9 +1,9 @@
 export class Reels {
-  reelsUrl: string;
+  downloadLink: string;
   thumbnailLink: string | null;
 
-  constructor(reelsUrl: string, thumbnailLink: string | null) {
-    this.reelsUrl = reelsUrl;
+  constructor(downloadLink: string, thumbnailLink: string | null) {
+    this.downloadLink = downloadLink;
     this.thumbnailLink = thumbnailLink;
   }
 }

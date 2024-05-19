@@ -29,7 +29,7 @@ describe('AppController (e2e)', () => {
         .set('Accept', 'application/json')
         .expect(200);
 
-      expect(response.body.reels.reelsUrl).toBeDefined();
+      expect(response.body.reels.downloadLink).toBeDefined();
     });
 
     it('/reels (POST) should return status code 400', async () => {

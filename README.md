@@ -1,8 +1,8 @@
-# Insta-Save API
+# insta-save-api
 
 ## Descrição
 
-A Insta-Save API é uma API simples para salvar reels do Instagram.
+Uma API simples para salvar reels do Instagram.
 
 ## Funcionalidades.
 
